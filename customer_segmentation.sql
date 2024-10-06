@@ -1,3 +1,5 @@
+-- Customer Segmentation by Account Balance
+
 select id,balance,
 case
     when balance < 10000 then 'Low'
